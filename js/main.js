@@ -36,6 +36,7 @@ function initNavbar() {
     toggle.addEventListener('click', () => {
       toggle.classList.toggle('active');
       links.classList.toggle('active');
+      navbar.classList.toggle('active');
       if (actions) actions.classList.toggle('active');
       document.body.style.overflow = toggle.classList.contains('active') ? 'hidden' : '';
     });
@@ -46,6 +47,7 @@ function initNavbar() {
         link.addEventListener('click', () => {
           toggle.classList.remove('active');
           links.classList.remove('active');
+          navbar.classList.remove('active');
           if (actions) actions.classList.remove('active');
           document.body.style.overflow = '';
         });
