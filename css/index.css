@@ -381,12 +381,10 @@ p {
   align-items: center;
   gap: var(--space-sm);
 }
-
-.nav-logo span {
-  background: linear-gradient(135deg, var(--primary-light), var(--secondary));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+.nav-logo img {
+  height: 38px;
+  width: auto;
+  object-fit: contain;
 }
 
 .nav-links {
@@ -1182,7 +1180,8 @@ p {
   margin-bottom: var(--space-3xl);
 }
 
-.footer-brand .nav-logo {
+.footer-brand .nav-logo img {
+  height: 48px;
   margin-bottom: var(--space-md);
 }
 

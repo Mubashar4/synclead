@@ -1,0 +1,8 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Top wing -->
+  <path d="M90 10 L10 40 L44 55 Z" fill="#0EA5E9" />
+  <!-- Bottom wing / Body -->
+  <path d="M90 10 L44 55 L58 95 Z" fill="#0284C7" />
+  <!-- Fold flap shadow -->
+  <path d="M44 55 L58 95 L63 60 Z" fill="#7DD3FC" />
+</svg>
